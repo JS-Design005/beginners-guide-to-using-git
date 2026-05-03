@@ -218,3 +218,18 @@ th {
 footer {
     margin: 1em;
 }
+
+/* Tablet styles! */
+@media screen and (min-width: 768px) {
+    /*.logo-container {
+        transform: scale(1.2);
+    }*/
+
+    section {
+        margin: 3em;
+        padding: 4.5em 3em;
+    }
+    footer {
+        margin: 1em 4em;
+    }
+}
