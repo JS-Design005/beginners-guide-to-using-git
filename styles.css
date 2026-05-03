@@ -89,3 +89,62 @@ body {
     margin-left: 35px;
     margin-top: -30px;
 }
+
+/* Navigation */
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.062);
+    align-items: center;
+    justify-content: center; /* Pushes everything to the right */
+    padding: 10px; /* Adds a little breathing room from the edge */
+}
+
+/* 1. Hide the actual checkbox square */
+#menu-toggle {
+    display: none;
+}
+
+/* 2. Style the hamburger icon */
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    display: block; /* Ensures it stays visible on wide screens */
+}
+
+/* 3. Hide the links by default */
+.nav-links {
+    display: none;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+/* 4. THE TRICK: When checkbox is checked, show the links! */
+#menu-toggle:checked ~ .nav-links {
+    display: block;
+}
+
+.links {
+    background-color: transparent;
+}
+
+.links:hover {
+    background-color:#F05032;
+}
+
+.links a {
+    text-decoration: none;
+    color: #F05032;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding:0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: whitesmoke
+}
