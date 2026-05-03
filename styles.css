@@ -233,3 +233,28 @@ footer {
         margin: 1em 4em;
     }
 }
+
+/* Widescreen styles! */
+@media screen and (min-width: 1024px) {
+    /*.logo-container {
+        transform: scale(1.2);
+    }*/
+    section {
+        margin: 1em;
+        padding: 1em 1em;
+    }
+    footer {
+        margin: 1em 4em;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    section:nth-child(1), section:nth-child(5)  {
+        grid-column: 1 / span 2;
+    }
+}
