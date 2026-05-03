@@ -13,7 +13,16 @@ Git is a free version control tool used by developers. I created this website to
 
 If you want to use git, I recomend visiting their official web page. They have loads of information to help you get started!
 
-## Skills 
+## Attribution
+As a beginner, I used AI as a 'pair-programmer' to help me build my first git version-controlled project. All of the code was written by me and the information was guided by the Google AI, with reference to the official Git Documentation.
+
+For the Quickstart section, I included a link to the official git website so the user could easily find it and download it. This is the [Official Git Website](https://git-scm.com) for more information.
+
+I also included two other resources for the reader. One is the link to [Official GitHub Website](https://github.com) and the other is [Official FreeCodeCamp Website](https://www.freecodecamp.org) 
+
+
+
+## Skills Learnt 
 - **Git:** Set up, staging, commiting and tagging. 
 - **HTML:** Semantic structure. 
-- **CSS:** transforms, positioning and box model. 
+- **CSS:** transforms, positioning, table styles. 
