@@ -29,18 +29,20 @@
                 <!-- The "Button" (The Hamburger) -->
                 <label for="menu-toggle" class="hamburger">&#9776;</label>
                 <ul class="nav-links">
-                    <li class="links"><a href="#Introduction">Introduction</a></li>
-                    <li class="links"><a href="#Setup">Setup</a></li>
-                    <li class="links"><a href="#Git Commands">Git Commands</a></li>
-                    <li class="links"><a href="#More Information">More Information</a></li>
-                    <li class="links"><a href="#Contact">Contact</a></li>
+                    <li class="links"><a href="#introduction">Introduction</a></li>
+                    <li class="links"><a href="#setup">Quickstart</a></li>
+                    <li class="links"><a href="#how-to-use-git">How to use Git</a></li>
+                    <li class="links"><a href="#git-commands">Git Commands</a></li>
+                    <li class="links"><a href="#More-information">More Information</a></li>
+                    <li class="links"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section id="Introduction">
+            <section id="introduction">
                 <h1>Welcome to Git!</h1>
                 <article>
+                    <h2>What is Git?</h2>
                     <p>
                         If you have ever coded a website and saved hundreds of 
                         copies of your project with version control file names,
@@ -57,9 +59,13 @@
                         If you want to know how to install or set up Git, or want 
                         to know some useful commands, this page has you covered! 
                     </p>
+                    <h2>GitHub</h2>
+                    <p>
+                        Common misconception, but Git and GitHub are not the same thing!
+                    </p>
                 </article>
             </section>
-            <section id="Setup">
+            <section id="setup">
                 <h2>Quickstart Guide</h2>
                 <h3>1. Download</h3>
                 <p>
@@ -122,6 +128,113 @@
                     to learn how to stage and commit your work! You can use the GUI or the built in terminal. If 
                     you have it open, restart it by closing it. Then it will find git automatically and it will 
                     be ready to use! 
+                </p>
+            </section>
+            <section id="how-to-use-git">
+                <h2>How to use Git</h2>
+                <h3>Introduction</h3>
+                <p>
+                    Now we will learn how to use git! But please note, this guide assumes you are confident
+                    with basic HTML, CSS and are familiar with <b>Visual Studio Code</b>.
+                </p>
+                <h3>1. Repository</h3>
+                <p>
+                    First, we need to set your file up as a repository. This will create a special
+                    <b>.git</b> file in your project folder. This is where the "bookmarks" or "warp gates"
+                    will be saved. To keep things very begginer friendly, lets use <b>Visual Studio Code</b>.
+                </p>
+                <p>
+                    Open a new project folder (it should be empty) in Visual studio code. Then, find the little
+                    icon that looks like strings and circles. It should be near the top left hand side of the screen. 
+                    This is called your <b>Source Control</b> tab.
+                </p>
+                <p>
+                    In the source control tab, you will find a button that says <b>initialize Repository</b>. Click
+                    that button, and you will have your first repository! 
+                </p>
+                <p>
+                    Now, when you look towards the bottom left of the screen, it should say "main" or "master".
+                </p>
+                <h3>2. Terminal</h3>
+                <p>
+                    We use the terminal to write git commands. To open the terminal in Visual Studio Code, we use this 
+                    keyboard shortcut: <code>Ctrl + ` </code>. 
+                </p>
+                <h3>3. Create some files!</h3>
+                <p>
+                    Now, we are ready to create a project! We will start with an <code>index.html</code> and a
+                    <code>styles.css</code>. Then, we will add a simple boilerplate to the html file, with a heading and 
+                    a couple of paragraphs.
+                </p>
+                <p>
+                    For the CSS, add some simple styling to your simple web page. It could be a background colour and style 
+                    the fonts of your heading and paragraphs. It doesn't have to be a lot of code. Now, you are ready for your 
+                    first stage!
+                </p>
+                <h3>4. Stage</h3>
+                <p>
+                    Our project is ready for staging! But before we get to the how, let's brush on the why.
+                </p>
+                <p>
+                    Say you wanted to document your progress for a series of drawings you were working on. You have 5 drawings
+                    so far, and they are all at different stages of their progress. Lets just say you want to photograph 3 of them
+                    because the other 2 are not ready yet. You "stage" them, by placing them on a seperate table by themselves. And 
+                    snap a photo of them; leaving the other 2 out. This is what we can do with our code!  
+                </p>
+                <p>
+                    You might not want to commit all of your files at once, so this is why we have this "stage" step. Now, if you go
+                    to your source control tab, you will see your files there. Hover over them, and you will find a plus button. If 
+                    you want to select the files individually, you can by clicking on those plus symbols.
+                </p>
+                <p>
+                    To add them all at once, we press the plus symbol on the changes tab, which should be just above those files we 
+                    looked at before. Congradulations, you made your first stage!
+                </p>
+                <h3>5. Commit</h3>
+                <p>
+                    This is the part where we create our first "bookmark"! Near the Commit button towards the top, you will see a 
+                    Message text bar. Type the name of your bookmark here. For example, we could put, "started the navigation panel". 
+                    In this case, you could even put, "my first commit!"
+                </p>
+                <p>
+                    Finally, press <b>Commit</b>. Well done, you made your first commit!
+                </p>
+                <h3>6. Tag</h3>
+                <p>
+                    So, now that we know how to stage and commit, I encourage you to add a few more things to your
+                    little project. Maybe a photo, or some more paragraphs. 
+                </p>
+                <p>
+                    Because then, we will make our first tag! Tags are sort of like special bookmarks that say, 
+                    "hey, an important part of the work is done!". It could be used when the mobile version of a website 
+                    is complete of when all the updates of a website have been complete and it is ready to be published 
+                    or shown to the client. 
+                </p>
+                <div class="pro-tip">
+                    <h3>Pro Tip!</h3>
+                    <p>
+                        The <b>commit</b> is the snapshot, so we can use many of these. But the
+                         <b>tag</b> is the permanent label of a version of your project that you are proud of!
+                    </p>
+                </div>
+                <p>
+                    We used the GUI for the commits. So lets have a look at our terminal! You can also do your 
+                    stages and commit in the terminal as well. 
+                </p>
+                <p>
+                    So, if you haven't already, open your terminal with this keyboard shortcut:  
+                    <code>Ctrl + ` </code>.
+                </p>
+                <p>
+                    The terminal can be a little intimidating at first, but rest assured! Click inside the terminal
+                    and press <code>enter</code> to clear it.
+                </p>
+                <p>
+                    Now, type this code into your terminal: <code>git tag -a v1.0 -m "My First Git Tag!"</code>
+                </p>
+                <p>
+                    Unless there is an error message (which might just be a typo in your code!), congrats! You just 
+                    created your first tag!
                 </p>
             </section>
         </main>
