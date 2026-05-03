@@ -20,7 +20,72 @@ body {
     width: 80px;
     height: 80px;
     background-color: #F05032;
-    border-radius: 10px;
+    border-radius: 8px;
 
     transform: rotate(45deg);
+    position: relative;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+
+    top: 15px;
+    left: 17px;
+}
+
+.circle-2 {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+
+    top: 50px;
+    left: 50px;
+}
+
+.circle-3 {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+
+    top: 15px;
+    left: 50px;
+}
+
+
+.line {
+    width: 7px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    left: 37.5px;
+
+    transform: rotate(-45deg);
+}
+
+.line-2 {
+    width: 7px;
+    height: 55px;
+    background-color: black;
+    position: absolute;
+    top: -4px;
+    left: 20px;
+
+    transform: rotate(90deg);
+}
+
+.logo-text {
+    font-family: 'Cambria', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 7rem;
+    margin-left: 35px;
+    margin-top: -30px;
 }
