@@ -8,6 +8,24 @@ body {
     color: whitesmoke;
 }
 
+code {
+    background-color: black;
+}
+
+h1, h2 {
+    color: #F05032;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
 /* Header Logo - Inspired by Ai */
 .logo-container {
     display: flex;
@@ -147,4 +165,22 @@ body {
 a:hover {
     text-decoration: none;
     color: whitesmoke
+}
+
+#Introduction {
+    background-color: transparent;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.062);
+    margin: 1em;
+    padding: 2.5em 2em;
+    border-radius: 20px;
+}
+
+.pro-tip {
+    background-color: #F05032;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0px;
 }
